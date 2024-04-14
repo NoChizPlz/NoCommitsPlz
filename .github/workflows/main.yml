@@ -9,6 +9,5 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GIT_EMAIL: ohua29@gmail.com
         MAX_DAYS: 1000
-        MIN_COMMITS_PER_DAY: 0
-        MAX_COMMITS_PER_DAY: 35
-        INCLUDE_WEEKENDS: false
+        MIN_COMMITS_PER_DAY: 4
+        MAX_COMMITS_PER_DAY: 40
